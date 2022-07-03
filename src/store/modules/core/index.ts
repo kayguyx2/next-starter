@@ -8,6 +8,7 @@ import { coreReducers } from '@/store/modules/core/reducers'
 export const initialCoreState: ICoreState = {
   language: 'th',
   loading: false,
+  status: 'INITIAL WEB',
 }
 
 export const slice = createSlice({
